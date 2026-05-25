@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/parse_and_extract",
+      "dest": "api/parse_and_extract.py",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/extract_text_metadata",
+      "dest": "api/extract_text_metadata.py",
+      "methods": ["POST"]
+    }
+  ]
+}
