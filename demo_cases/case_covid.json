@@ -1,0 +1,104 @@
+{
+  "nodes": {
+    "Cohort Analysis of COVID-19 Aerosol Transmission in Public Transit": {
+      "title": "Cohort Analysis of COVID-19 Aerosol Transmission in Public Transit",
+      "authors": ["M. Usman", "A. Imran", "Z. Abidin"],
+      "doi": "10.1016/j.jvb.2021.100244",
+      "year": 2021,
+      "journal": "Journal of Hospital Infection",
+      "population_size": 4850,
+      "citation_count": 89,
+      "impact_factor": 6.8,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "In this prospective cohort study, we tracked a total population of 4,850 transit passengers across three metropolitan lines...",
+      "cohort_matching_rule": "cohort_preceded_by_descriptor"
+    },
+    "Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1": {
+      "title": "Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1",
+      "authors": ["N. van Doremalen", "T. Bushmaker", "D. Morris"],
+      "doi": "10.1056/nejmc2004973",
+      "year": 2020,
+      "journal": "New England Journal of Medicine",
+      "population_size": 250,
+      "citation_count": 8450,
+      "impact_factor": 10.0,
+      "cohort_confidence": "MEDIUM",
+      "cohort_extraction_snippet": "...evaluating 250 aerosol chambers under different humidity and temperature controls over 14 days...",
+      "cohort_matching_rule": "total_count"
+    },
+    "Epidemiological Characteristics of 72,314 Cases of COVID-19 in China": {
+      "title": "Epidemiological Characteristics of 72,314 Cases of COVID-19 in China",
+      "authors": ["Novel Coronavirus Pneumonia Emergency Response Team"],
+      "doi": "10.3760/cma.j.issn.0254-6450.2020.02.003",
+      "year": 2020,
+      "journal": "JAMA",
+      "population_size": 72314,
+      "citation_count": 5600,
+      "impact_factor": 9.8,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "...A total of 72,314 patient records were retrieved and analyzed, including 44,672 confirmed cases (61.8%)...",
+      "cohort_matching_rule": "count_followed_by_cohort_term"
+    },
+    "A Novel Coronavirus from Patients with Pneumonia in China, 2019": {
+      "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+      "authors": ["N. Zhu", "D. Zhang", "W. Wang"],
+      "doi": "10.1056/nejmoa2001017",
+      "year": 2020,
+      "journal": "New England Journal of Medicine",
+      "population_size": 15,
+      "citation_count": 18200,
+      "impact_factor": 10.0,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "We isolated the virus from clinical samples of 15 patients hospitalized with pneumonia in Wuhan...",
+      "cohort_matching_rule": "N_equals_formula"
+    },
+    "Clinical Characteristics of 138 Hospitalized Patients in Wuhan, China": {
+      "title": "Clinical Characteristics of 138 Hospitalized Patients in Wuhan, China",
+      "authors": ["D. Wang", "B. Hu", "C. Hu"],
+      "doi": "10.1001/jama.2020.1585",
+      "year": 2020,
+      "journal": "JAMA",
+      "population_size": 138,
+      "citation_count": 9800,
+      "impact_factor": 9.2,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "...This retrospective study analyzed clinical records of 138 hospitalized patients at Zhongnan Hospital...",
+      "cohort_matching_rule": "count_followed_by_cohort_term"
+    },
+    "Early Transmission Dynamics in Wuhan of Novel Coronavirus-Infected Pneumonia": {
+      "title": "Early Transmission Dynamics in Wuhan of Novel Coronavirus-Infected Pneumonia",
+      "authors": ["Q. Li", "X. Guan", "P. Wu"],
+      "doi": "10.1056/nejmoa2001316",
+      "year": 2020,
+      "journal": "New England Journal of Medicine",
+      "population_size": 425,
+      "citation_count": 12500,
+      "impact_factor": 10.0,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "We analyzed data on the first 425 laboratory-confirmed cases in Wuhan to estimate transmission dynamics...",
+      "cohort_matching_rule": "count_followed_by_cohort_term"
+    }
+  },
+  "edges": [
+    {
+      "source": "Cohort Analysis of COVID-19 Aerosol Transmission in Public Transit",
+      "target": "Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1"
+    },
+    {
+      "source": "Cohort Analysis of COVID-19 Aerosol Transmission in Public Transit",
+      "target": "Epidemiological Characteristics of 72,314 Cases of COVID-19 in China"
+    },
+    {
+      "source": "Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1",
+      "target": "A Novel Coronavirus from Patients with Pneumonia in China, 2019"
+    },
+    {
+      "source": "Epidemiological Characteristics of 72,314 Cases of COVID-19 in China",
+      "target": "Clinical Characteristics of 138 Hospitalized Patients in Wuhan, China"
+    },
+    {
+      "source": "Epidemiological Characteristics of 72,314 Cases of COVID-19 in China",
+      "target": "Early Transmission Dynamics in Wuhan of Novel Coronavirus-Infected Pneumonia"
+    }
+  ]
+}

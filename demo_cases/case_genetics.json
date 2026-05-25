@@ -1,0 +1,87 @@
+{
+  "nodes": {
+    "Multi-Ethnic Genome-Wide Association Study of Type 2 Diabetes in 150,000 Individuals": {
+      "title": "Multi-Ethnic Genome-Wide Association Study of Type 2 Diabetes in 150,000 Individuals",
+      "authors": ["R. Mahad", "H. Karim", "M. Usman"],
+      "doi": "10.1038/s41588-022-01044-y",
+      "year": 2022,
+      "journal": "Nature Genetics",
+      "population_size": 150000,
+      "citation_count": 145,
+      "impact_factor": 9.7,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "...Here we present a meta-analysis combining multiple ethnic cohorts, achieving a total sample size of 150,000 individuals worldwide...",
+      "cohort_matching_rule": "cohort_preceded_by_descriptor"
+    },
+    "Association Analysis of 9,726 Cases Shows New Loci for Type 2 Diabetes": {
+      "title": "Association Analysis of 9,726 Cases Shows New Loci for Type 2 Diabetes",
+      "authors": ["A. Morris", "T. Frayling", "M. McCarthy"],
+      "doi": "10.1038/ng.2384",
+      "year": 2018,
+      "journal": "Nature Genetics",
+      "population_size": 9726,
+      "citation_count": 940,
+      "impact_factor": 8.9,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "...We performed association analysis using 9,726 cases of Type 2 Diabetes and 14,000 controls...",
+      "cohort_matching_rule": "count_followed_by_cohort_term"
+    },
+    "Genome-Wide Association Study Identification of 10 Loci Associated with Type 2 Diabetes": {
+      "title": "Genome-Wide Association Study Identification of 10 Loci Associated with Type 2 Diabetes",
+      "authors": ["D. Altshuler", "V. Mootha", "A. Daly"],
+      "doi": "10.1038/nature02300",
+      "year": 2016,
+      "journal": "Nature",
+      "population_size": 4500,
+      "citation_count": 2100,
+      "impact_factor": 10.0,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "...Our initial scan evaluated a cohort of 4,500 diabetic individuals and 5,000 healthy age-matched reference subjects...",
+      "cohort_matching_rule": "cohort_preceded_by_descriptor"
+    },
+    "Genome-Wide Association Study of 14,000 Cases of Seven Common Diseases": {
+      "title": "Genome-Wide Association Study of 14,000 Cases of Seven Common Diseases",
+      "authors": ["The Wellcome Trust Case Control Consortium"],
+      "doi": "10.1038/nature05911",
+      "year": 2007,
+      "journal": "Nature",
+      "population_size": 14000,
+      "citation_count": 7800,
+      "impact_factor": 10.0,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "...A joint analysis evaluated 14,000 cases of seven common diseases (2,000 cases for each disease group) and 3,000 shared control subjects...",
+      "cohort_matching_rule": "count_followed_by_cohort_term"
+    },
+    "A Large-Scale Association Study Identifies Loci Associated with Type 2 Diabetes": {
+      "title": "A Large-Scale Association Study Identifies Loci Associated with Type 2 Diabetes",
+      "authors": ["K. Daimon", "T. Ohta", "S. Yasuda"],
+      "doi": "10.1038/ng.1202",
+      "year": 2012,
+      "journal": "Nature Genetics",
+      "population_size": 12500,
+      "citation_count": 1150,
+      "impact_factor": 8.8,
+      "cohort_confidence": "HIGH",
+      "cohort_extraction_snippet": "...We conducted a multi-center large-scale cohort of 12,500 individuals in the Japanese population...",
+      "cohort_matching_rule": "cohort_preceded_by_descriptor"
+    }
+  },
+  "edges": [
+    {
+      "source": "Multi-Ethnic Genome-Wide Association Study of Type 2 Diabetes in 150,000 Individuals",
+      "target": "Association Analysis of 9,726 Cases Shows New Loci for Type 2 Diabetes"
+    },
+    {
+      "source": "Multi-Ethnic Genome-Wide Association Study of Type 2 Diabetes in 150,000 Individuals",
+      "target": "Genome-Wide Association Study Identification of 10 Loci Associated with Type 2 Diabetes"
+    },
+    {
+      "source": "Association Analysis of 9,726 Cases Shows New Loci for Type 2 Diabetes",
+      "target": "Genome-Wide Association Study of 14,000 Cases of Seven Common Diseases"
+    },
+    {
+      "source": "Genome-Wide Association Study Identification of 10 Loci Associated with Type 2 Diabetes",
+      "target": "A Large-Scale Association Study Identifies Loci Associated with Type 2 Diabetes"
+    }
+  ]
+}
